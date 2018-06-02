@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962C55132052425B00331344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C55122052425B00331344 /* AppDelegate.swift */; };
+		962C55152052425B00331344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C55142052425B00331344 /* ViewController.swift */; };
+		962C55182052425B00331344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962C55162052425B00331344 /* Main.storyboard */; };
+		962C551B2052425B00331344 /* EarTrainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 962C55192052425B00331344 /* EarTrainer.xcdatamodeld */; };
+		962C551D2052425B00331344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962C551C2052425B00331344 /* Assets.xcassets */; };
+		962C55202052425B00331344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962C551E2052425B00331344 /* LaunchScreen.storyboard */; };
+		962C55442052440A00331344 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C55432052440A00331344 /* GameController.swift */; };
+		962C55572054C64800331344 /* major_second_c_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C554A2054C64800331344 /* major_second_c_2.mp3 */; };
+		962C55582054C64800331344 /* major_seventh_c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C554B2054C64800331344 /* major_seventh_c.mp3 */; };
+		962C55592054C64800331344 /* major_sixth_c_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C554C2054C64800331344 /* major_sixth_c_8.mp3 */; };
+		962C555A2054C64800331344 /* major_third_c_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C554D2054C64800331344 /* major_third_c_4.mp3 */; };
+		962C555B2054C64800331344 /* minor_second_c_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C554E2054C64800331344 /* minor_second_c_1.mp3 */; };
+		962C555C2054C64800331344 /* minor_seventh_c_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C554F2054C64800331344 /* minor_seventh_c_9.mp3 */; };
+		962C555D2054C64800331344 /* minor_sixth_c_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55502054C64800331344 /* minor_sixth_c_7.mp3 */; };
+		962C555E2054C64800331344 /* minor_third_c_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55512054C64800331344 /* minor_third_c_3.mp3 */; };
+		962C555F2054C64800331344 /* perfect_fifth_c_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55522054C64800331344 /* perfect_fifth_c_6.mp3 */; };
+		962C55602054C64800331344 /* perfect_fourth_c_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55532054C64800331344 /* perfect_fourth_c_5.mp3 */; };
+		962C55612054C64800331344 /* perfect_octave_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55542054C64800331344 /* perfect_octave_11.mp3 */; };
+		962C55622054C64800331344 /* tritone_c_dimished_fifth_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55552054C64800331344 /* tritone_c_dimished_fifth_6.mp3 */; };
+		962C55632054C64800331344 /* unision_mid_c_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 962C55562054C64800331344 /* unision_mid_c_0.mp3 */; };
+		962C556520579E3500331344 /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C556420579E3500331344 /* StartMenu.swift */; };
+		96CE143E207A11D4009228AA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CE143D207A11D4009228AA /* MessageUI.framework */; };
+		96CE1442207A1D12009228AA /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CE1441207A1D12009228AA /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962C55272052425B00331344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962C55072052425B00331344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962C550E2052425B00331344;
+			remoteInfo = EarTrainer;
+		};
+		962C55322052425B00331344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 962C55072052425B00331344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 962C550E2052425B00331344;
+			remoteInfo = EarTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		962C550F2052425B00331344 /* EarTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962C55122052425B00331344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		962C55142052425B00331344 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		962C55172052425B00331344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		962C551A2052425B00331344 /* EarTrainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarTrainer.xcdatamodel; sourceTree = "<group>"; };
+		962C551C2052425B00331344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		962C551F2052425B00331344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		962C55212052425B00331344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962C55262052425B00331344 /* EarTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962C55312052425B00331344 /* EarTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		962C55432052440A00331344 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		962C554A2054C64800331344 /* major_second_c_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = major_second_c_2.mp3; sourceTree = "<group>"; };
+		962C554B2054C64800331344 /* major_seventh_c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = major_seventh_c.mp3; sourceTree = "<group>"; };
+		962C554C2054C64800331344 /* major_sixth_c_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = major_sixth_c_8.mp3; sourceTree = "<group>"; };
+		962C554D2054C64800331344 /* major_third_c_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = major_third_c_4.mp3; sourceTree = "<group>"; };
+		962C554E2054C64800331344 /* minor_second_c_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = minor_second_c_1.mp3; sourceTree = "<group>"; };
+		962C554F2054C64800331344 /* minor_seventh_c_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = minor_seventh_c_9.mp3; sourceTree = "<group>"; };
+		962C55502054C64800331344 /* minor_sixth_c_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = minor_sixth_c_7.mp3; sourceTree = "<group>"; };
+		962C55512054C64800331344 /* minor_third_c_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = minor_third_c_3.mp3; sourceTree = "<group>"; };
+		962C55522054C64800331344 /* perfect_fifth_c_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect_fifth_c_6.mp3; sourceTree = "<group>"; };
+		962C55532054C64800331344 /* perfect_fourth_c_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect_fourth_c_5.mp3; sourceTree = "<group>"; };
+		962C55542054C64800331344 /* perfect_octave_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perfect_octave_11.mp3; sourceTree = "<group>"; };
+		962C55552054C64800331344 /* tritone_c_dimished_fifth_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tritone_c_dimished_fifth_6.mp3; sourceTree = "<group>"; };
+		962C55562054C64800331344 /* unision_mid_c_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unision_mid_c_0.mp3; sourceTree = "<group>"; };
+		962C556420579E3500331344 /* StartMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMenu.swift; sourceTree = "<group>"; };
+		96CE143D207A11D4009228AA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		96CE1441207A1D12009228AA /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962C550C2052425B00331344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CE1442207A1D12009228AA /* GoogleMobileAds.framework in Frameworks */,
+				96CE143E207A11D4009228AA /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C55232052425B00331344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C552E2052425B00331344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962C55062052425B00331344 = {
+			isa = PBXGroup;
+			children = (
+				962C55112052425B00331344 /* EarTrainer */,
+				962C55102052425B00331344 /* Products */,
+				9638E24B20639743005401D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		962C55102052425B00331344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962C550F2052425B00331344 /* EarTrainer.app */,
+				962C55262052425B00331344 /* EarTrainerTests.xctest */,
+				962C55312052425B00331344 /* EarTrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962C55112052425B00331344 /* EarTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				962C55122052425B00331344 /* AppDelegate.swift */,
+				962C55142052425B00331344 /* ViewController.swift */,
+				962C55162052425B00331344 /* Main.storyboard */,
+				962C551C2052425B00331344 /* Assets.xcassets */,
+				962C55492054C64800331344 /* mainIntervals */,
+				962C551E2052425B00331344 /* LaunchScreen.storyboard */,
+				962C55212052425B00331344 /* Info.plist */,
+				962C55192052425B00331344 /* EarTrainer.xcdatamodeld */,
+				962C55432052440A00331344 /* GameController.swift */,
+				962C556420579E3500331344 /* StartMenu.swift */,
+			);
+			path = EarTrainer;
+			sourceTree = "<group>";
+		};
+		962C55492054C64800331344 /* mainIntervals */ = {
+			isa = PBXGroup;
+			children = (
+				962C554A2054C64800331344 /* major_second_c_2.mp3 */,
+				962C554B2054C64800331344 /* major_seventh_c.mp3 */,
+				962C554C2054C64800331344 /* major_sixth_c_8.mp3 */,
+				962C554D2054C64800331344 /* major_third_c_4.mp3 */,
+				962C554E2054C64800331344 /* minor_second_c_1.mp3 */,
+				962C554F2054C64800331344 /* minor_seventh_c_9.mp3 */,
+				962C55502054C64800331344 /* minor_sixth_c_7.mp3 */,
+				962C55512054C64800331344 /* minor_third_c_3.mp3 */,
+				962C55522054C64800331344 /* perfect_fifth_c_6.mp3 */,
+				962C55532054C64800331344 /* perfect_fourth_c_5.mp3 */,
+				962C55542054C64800331344 /* perfect_octave_11.mp3 */,
+				962C55552054C64800331344 /* tritone_c_dimished_fifth_6.mp3 */,
+				962C55562054C64800331344 /* unision_mid_c_0.mp3 */,
+			);
+			path = mainIntervals;
+			sourceTree = "<group>";
+		};
+		9638E24B20639743005401D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96CE1441207A1D12009228AA /* GoogleMobileAds.framework */,
+				96CE143D207A11D4009228AA /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962C550E2052425B00331344 /* EarTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962C553A2052425B00331344 /* Build configuration list for PBXNativeTarget "EarTrainer" */;
+			buildPhases = (
+				962C550B2052425B00331344 /* Sources */,
+				962C550C2052425B00331344 /* Frameworks */,
+				962C550D2052425B00331344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarTrainer;
+			productName = EarTrainer;
+			productReference = 962C550F2052425B00331344 /* EarTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		962C55252052425B00331344 /* EarTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962C553D2052425B00331344 /* Build configuration list for PBXNativeTarget "EarTrainerTests" */;
+			buildPhases = (
+				962C55222052425B00331344 /* Sources */,
+				962C55232052425B00331344 /* Frameworks */,
+				962C55242052425B00331344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962C55282052425B00331344 /* PBXTargetDependency */,
+			);
+			name = EarTrainerTests;
+			productName = EarTrainerTests;
+			productReference = 962C55262052425B00331344 /* EarTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		962C55302052425B00331344 /* EarTrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962C55402052425B00331344 /* Build configuration list for PBXNativeTarget "EarTrainerUITests" */;
+			buildPhases = (
+				962C552D2052425B00331344 /* Sources */,
+				962C552E2052425B00331344 /* Frameworks */,
+				962C552F2052425B00331344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				962C55332052425B00331344 /* PBXTargetDependency */,
+			);
+			name = EarTrainerUITests;
+			productName = EarTrainerUITests;
+			productReference = 962C55312052425B00331344 /* EarTrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962C55072052425B00331344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = vr;
+				TargetAttributes = {
+					962C550E2052425B00331344 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					962C55252052425B00331344 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 962C550E2052425B00331344;
+					};
+					962C55302052425B00331344 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 962C550E2052425B00331344;
+					};
+				};
+			};
+			buildConfigurationList = 962C550A2052425B00331344 /* Build configuration list for PBXProject "EarTrainer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 962C55062052425B00331344;
+			productRefGroup = 962C55102052425B00331344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962C550E2052425B00331344 /* EarTrainer */,
+				962C55252052425B00331344 /* EarTrainerTests */,
+				962C55302052425B00331344 /* EarTrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962C550D2052425B00331344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962C55572054C64800331344 /* major_second_c_2.mp3 in Resources */,
+				962C555F2054C64800331344 /* perfect_fifth_c_6.mp3 in Resources */,
+				962C555A2054C64800331344 /* major_third_c_4.mp3 in Resources */,
+				962C555C2054C64800331344 /* minor_seventh_c_9.mp3 in Resources */,
+				962C555D2054C64800331344 /* minor_sixth_c_7.mp3 in Resources */,
+				962C555E2054C64800331344 /* minor_third_c_3.mp3 in Resources */,
+				962C55592054C64800331344 /* major_sixth_c_8.mp3 in Resources */,
+				962C55632054C64800331344 /* unision_mid_c_0.mp3 in Resources */,
+				962C555B2054C64800331344 /* minor_second_c_1.mp3 in Resources */,
+				962C55202052425B00331344 /* LaunchScreen.storyboard in Resources */,
+				962C55612054C64800331344 /* perfect_octave_11.mp3 in Resources */,
+				962C55602054C64800331344 /* perfect_fourth_c_5.mp3 in Resources */,
+				962C551D2052425B00331344 /* Assets.xcassets in Resources */,
+				962C55582054C64800331344 /* major_seventh_c.mp3 in Resources */,
+				962C55622054C64800331344 /* tritone_c_dimished_fifth_6.mp3 in Resources */,
+				962C55182052425B00331344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C55242052425B00331344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C552F2052425B00331344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962C550B2052425B00331344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962C55152052425B00331344 /* ViewController.swift in Sources */,
+				962C556520579E3500331344 /* StartMenu.swift in Sources */,
+				962C55442052440A00331344 /* GameController.swift in Sources */,
+				962C551B2052425B00331344 /* EarTrainer.xcdatamodeld in Sources */,
+				962C55132052425B00331344 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C55222052425B00331344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C552D2052425B00331344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		962C55282052425B00331344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 962C550E2052425B00331344 /* EarTrainer */;
+			targetProxy = 962C55272052425B00331344 /* PBXContainerItemProxy */;
+		};
+		962C55332052425B00331344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 962C550E2052425B00331344 /* EarTrainer */;
+			targetProxy = 962C55322052425B00331344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		962C55162052425B00331344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962C55172052425B00331344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		962C551E2052425B00331344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962C551F2052425B00331344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962C55382052425B00331344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		962C55392052425B00331344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962C553B2052425B00331344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EarTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vr.EarTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		962C553C2052425B00331344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EarTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vr.EarTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		962C553E2052425B00331344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EarTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.EarTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarTrainer.app/EarTrainer";
+			};
+			name = Debug;
+		};
+		962C553F2052425B00331344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EarTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.EarTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarTrainer.app/EarTrainer";
+			};
+			name = Release;
+		};
+		962C55412052425B00331344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EarTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.EarTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarTrainer;
+			};
+			name = Debug;
+		};
+		962C55422052425B00331344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EarTrainerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vr.EarTrainerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarTrainer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962C550A2052425B00331344 /* Build configuration list for PBXProject "EarTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962C55382052425B00331344 /* Debug */,
+				962C55392052425B00331344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962C553A2052425B00331344 /* Build configuration list for PBXNativeTarget "EarTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962C553B2052425B00331344 /* Debug */,
+				962C553C2052425B00331344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962C553D2052425B00331344 /* Build configuration list for PBXNativeTarget "EarTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962C553E2052425B00331344 /* Debug */,
+				962C553F2052425B00331344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962C55402052425B00331344 /* Build configuration list for PBXNativeTarget "EarTrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962C55412052425B00331344 /* Debug */,
+				962C55422052425B00331344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		962C55192052425B00331344 /* EarTrainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				962C551A2052425B00331344 /* EarTrainer.xcdatamodel */,
+			);
+			currentVersion = 962C551A2052425B00331344 /* EarTrainer.xcdatamodel */;
+			path = EarTrainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 962C55072052425B00331344 /* Project object */;
+}
